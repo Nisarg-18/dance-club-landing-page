@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   outline: 0;
+  background-color:#f5f2f0;
 }
 
 .main-container {
@@ -169,4 +170,84 @@
 }
 .fa-arrow-down-long {
   font-size: 50px;
+}
+
+@media screen and (max-width:1300px) {
+  .list-dots{
+    display: none;
+  }
+  .end-list-item::after {
+    display: none;
+  }
+  .line{
+    width: 250px;  
+  }
+}
+
+@media screen and (max-width:1160px) {
+  .main-container{
+    height: 80vh;
+  }
+}
+@media screen and (max-width:1024px) {
+  .main-container{
+    background-image: none;
+  }
+  .line{
+    width: 100px;
+  }
+  .navbar{
+    display: none;
+  }
+  .top-section{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    justify-content: space-between;
+  }
+  .after-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    top: 400px;
+  }
+  .social{
+    position: absolute;
+    left: 800px;
+    right: 10px;
+  }
+  .arrow{
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .social{
+  display: none;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .logo{
+    margin-left: 40px;
+  }
+  .top-section{
+    left: 20px;
+
+    margin-right: 20px;
+  }
+  .styled-text{
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .normal-text{
+    font-size: 20px;
+
+padding-left: 10px;
+margin-right: 20px;
+  }
+  .check-package{
+  margin: auto;
+  margin-bottom: 40px;
+  }
 }

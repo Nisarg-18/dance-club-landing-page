@@ -8,15 +8,20 @@ A landing page for a dance club made using pure HTML and CSS
 - Positioning
 - Font Styling
 - Icons
+- Media Queries in CSS
 
 ## Time Taken for Completion
-- 5 hours
+- 6 hours
 
 ### Checkout the Project here : [danceclub](https://danceclub.netlify.app/)
 
 ## Output
+
+## Desktop View
 ![output](output.png)
 
+## Mobile View
+![mobile](mobile.png)
 
 Made with ❤️ by Nisarg Shah
 
